@@ -1,0 +1,13 @@
+Nicolás Triana Infante12:37
+python -m venv env
+env\Scripts\activate
+pip install django
+pip install djangorestframework
+django-admin startproject authProject
+Nicolás Triana Infante12:42
+'rest_framework',
+django-admin startapp authApp
+Nicolás Triana Infante12:43
+'authApp',
+python manage.py runserver
+pip install djangorestframework-simplejwt
